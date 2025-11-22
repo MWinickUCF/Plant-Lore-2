@@ -1,0 +1,2119 @@
+{
+  "texts": [
+    {
+      "title": "Plant Lore, Legends, and Lyrics",
+      "author": "Richard Folkard, Jun.",
+      "total_words": 353911,
+      "unique_words": 20182,
+      "lexical_diversity": 0.057025636388809614,
+      "sentiment": {
+        "positive": 0.108,
+        "negative": 0.062,
+        "neutral": 0.83,
+        "compound": 1.0
+      },
+      "top_words": [
+        {
+          "word": "tree",
+          "count": 982
+        },
+        {
+          "word": "plant",
+          "count": 792
+        },
+        {
+          "word": "one",
+          "count": 762
+        },
+        {
+          "word": "called",
+          "count": 701
+        },
+        {
+          "word": "name",
+          "count": 615
+        },
+        {
+          "word": "flowers",
+          "count": 599
+        },
+        {
+          "word": "flower",
+          "count": 496
+        },
+        {
+          "word": "old",
+          "count": 491
+        },
+        {
+          "word": "plants",
+          "count": 470
+        },
+        {
+          "word": "also",
+          "count": 457
+        },
+        {
+          "word": "day",
+          "count": 426
+        },
+        {
+          "word": "trees",
+          "count": 402
+        },
+        {
+          "word": "upon",
+          "count": 392
+        },
+        {
+          "word": "leaves",
+          "count": 385
+        },
+        {
+          "word": "sacred",
+          "count": 375
+        },
+        {
+          "word": "according",
+          "count": 350
+        },
+        {
+          "word": "time",
+          "count": 347
+        },
+        {
+          "word": "herb",
+          "count": 344
+        },
+        {
+          "word": "made",
+          "count": 319
+        },
+        {
+          "word": "first",
+          "count": 318
+        },
+        {
+          "word": "says",
+          "count": 315
+        },
+        {
+          "word": "fruit",
+          "count": 284
+        },
+        {
+          "word": "used",
+          "count": 284
+        },
+        {
+          "word": "may",
+          "count": 278
+        },
+        {
+          "word": "found",
+          "count": 268
+        },
+        {
+          "word": "god",
+          "count": 264
+        },
+        {
+          "word": "many",
+          "count": 261
+        },
+        {
+          "word": "said",
+          "count": 261
+        },
+        {
+          "word": "among",
+          "count": 257
+        },
+        {
+          "word": "see",
+          "count": 257
+        },
+        {
+          "word": "great",
+          "count": 256
+        },
+        {
+          "word": "certain",
+          "count": 254
+        },
+        {
+          "word": "known",
+          "count": 253
+        },
+        {
+          "word": "would",
+          "count": 249
+        },
+        {
+          "word": "man",
+          "count": 249
+        },
+        {
+          "word": "love",
+          "count": 245
+        },
+        {
+          "word": "thus",
+          "count": 238
+        },
+        {
+          "word": "like",
+          "count": 236
+        },
+        {
+          "word": "given",
+          "count": 232
+        },
+        {
+          "word": "king",
+          "count": 230
+        },
+        {
+          "word": "good",
+          "count": 228
+        },
+        {
+          "word": "white",
+          "count": 221
+        },
+        {
+          "word": "considered",
+          "count": 218
+        },
+        {
+          "word": "still",
+          "count": 210
+        },
+        {
+          "word": "held",
+          "count": 210
+        },
+        {
+          "word": "three",
+          "count": 210
+        },
+        {
+          "word": "branches",
+          "count": 209
+        },
+        {
+          "word": "ancient",
+          "count": 209
+        },
+        {
+          "word": "root",
+          "count": 209
+        },
+        {
+          "word": "tells",
+          "count": 209
+        },
+        {
+          "word": "water",
+          "count": 208
+        },
+        {
+          "word": "every",
+          "count": 206
+        },
+        {
+          "word": "rose",
+          "count": 204
+        },
+        {
+          "word": "young",
+          "count": 204
+        },
+        {
+          "word": "moon",
+          "count": 200
+        },
+        {
+          "word": "legend",
+          "count": 199
+        },
+        {
+          "word": "wood",
+          "count": 197
+        },
+        {
+          "word": "place",
+          "count": 193
+        },
+        {
+          "word": "john",
+          "count": 191
+        },
+        {
+          "word": "account",
+          "count": 189
+        },
+        {
+          "word": "death",
+          "count": 188
+        },
+        {
+          "word": "two",
+          "count": 187
+        },
+        {
+          "word": "long",
+          "count": 185
+        },
+        {
+          "word": "supposed",
+          "count": 181
+        },
+        {
+          "word": "sun",
+          "count": 180
+        },
+        {
+          "word": "tradition",
+          "count": 179
+        },
+        {
+          "word": "gerarde",
+          "count": 178
+        },
+        {
+          "word": "times",
+          "count": 178
+        },
+        {
+          "word": "earth",
+          "count": 178
+        },
+        {
+          "word": "oak",
+          "count": 177
+        },
+        {
+          "word": "whose",
+          "count": 177
+        },
+        {
+          "word": "people",
+          "count": 177
+        },
+        {
+          "word": "however",
+          "count": 177
+        },
+        {
+          "word": "england",
+          "count": 174
+        },
+        {
+          "word": "became",
+          "count": 171
+        },
+        {
+          "word": "night",
+          "count": 169
+        },
+        {
+          "word": "away",
+          "count": 168
+        },
+        {
+          "word": "life",
+          "count": 166
+        },
+        {
+          "word": "little",
+          "count": 166
+        },
+        {
+          "word": "well",
+          "count": 165
+        },
+        {
+          "word": "country",
+          "count": 165
+        },
+        {
+          "word": "witches",
+          "count": 164
+        },
+        {
+          "word": "belief",
+          "count": 162
+        },
+        {
+          "word": "thought",
+          "count": 156
+        },
+        {
+          "word": "virgin",
+          "count": 155
+        },
+        {
+          "word": "placed",
+          "count": 153
+        },
+        {
+          "word": "men",
+          "count": 152
+        },
+        {
+          "word": "another",
+          "count": 152
+        },
+        {
+          "word": "regarded",
+          "count": 151
+        },
+        {
+          "word": "use",
+          "count": 149
+        },
+        {
+          "word": "cross",
+          "count": 149
+        },
+        {
+          "word": "holy",
+          "count": 149
+        },
+        {
+          "word": "head",
+          "count": 146
+        },
+        {
+          "word": "form",
+          "count": 146
+        },
+        {
+          "word": "employed",
+          "count": 146
+        },
+        {
+          "word": "cut",
+          "count": 146
+        },
+        {
+          "word": "must",
+          "count": 146
+        },
+        {
+          "word": "english",
+          "count": 145
+        },
+        {
+          "word": "dream",
+          "count": 145
+        },
+        {
+          "word": "custom",
+          "count": 143
+        }
+      ],
+      "bag_of_words": {
+        "tree": 982,
+        "plant": 792,
+        "one": 762,
+        "called": 701,
+        "name": 615,
+        "flowers": 599,
+        "flower": 496,
+        "old": 491,
+        "plants": 470,
+        "also": 457,
+        "day": 426,
+        "trees": 402,
+        "upon": 392,
+        "leaves": 385,
+        "sacred": 375,
+        "according": 350,
+        "time": 347,
+        "herb": 344,
+        "made": 319,
+        "first": 318,
+        "says": 315,
+        "fruit": 284,
+        "used": 284,
+        "may": 278,
+        "found": 268,
+        "god": 264,
+        "many": 261,
+        "said": 261,
+        "among": 257,
+        "see": 257,
+        "great": 256,
+        "certain": 254,
+        "known": 253,
+        "would": 249,
+        "man": 249,
+        "love": 245,
+        "thus": 238,
+        "like": 236,
+        "given": 232,
+        "king": 230,
+        "good": 228,
+        "white": 221,
+        "considered": 218,
+        "still": 210,
+        "held": 210,
+        "three": 210,
+        "branches": 209,
+        "ancient": 209,
+        "root": 209,
+        "tells": 209,
+        "water": 208,
+        "every": 206,
+        "rose": 204,
+        "young": 204,
+        "moon": 200,
+        "legend": 199,
+        "wood": 197,
+        "place": 193,
+        "john": 191,
+        "account": 189,
+        "death": 188,
+        "two": 187,
+        "long": 185,
+        "supposed": 181,
+        "sun": 180,
+        "tradition": 179,
+        "gerarde": 178,
+        "times": 178,
+        "earth": 178,
+        "oak": 177,
+        "whose": 177,
+        "people": 177,
+        "however": 177,
+        "england": 174,
+        "became": 171,
+        "night": 169,
+        "away": 168,
+        "life": 166,
+        "little": 166,
+        "well": 165,
+        "country": 165,
+        "witches": 164,
+        "belief": 162,
+        "thought": 156,
+        "virgin": 155,
+        "placed": 153,
+        "men": 152,
+        "another": 152,
+        "regarded": 151,
+        "use": 149,
+        "cross": 149,
+        "holy": 149,
+        "head": 146,
+        "form": 146,
+        "employed": 146,
+        "cut": 146,
+        "must": 146,
+        "english": 145,
+        "dream": 145,
+        "custom": 143,
+        "hand": 143,
+        "garden": 142,
+        "round": 142,
+        "believed": 141,
+        "indian": 140,
+        "hence": 140,
+        "evil": 139,
+        "following": 139,
+        "greeks": 137,
+        "formerly": 135,
+        "blood": 135,
+        "year": 133,
+        "species": 133,
+        "grew": 133,
+        "order": 132,
+        "much": 131,
+        "crown": 130,
+        "power": 130,
+        "near": 130,
+        "roses": 130,
+        "ancients": 129,
+        "days": 129,
+        "spirits": 128,
+        "find": 128,
+        "beneath": 126,
+        "romans": 125,
+        "venus": 124,
+        "parts": 124,
+        "shall": 124,
+        "fire": 123,
+        "make": 123,
+        "germany": 122,
+        "devil": 120,
+        "means": 120,
+        "golden": 119,
+        "could": 118,
+        "herbs": 117,
+        "named": 116,
+        "grows": 116,
+        "wild": 116,
+        "gods": 113,
+        "whilst": 112,
+        "names": 112,
+        "roots": 112,
+        "cure": 112,
+        "origin": 111,
+        "sweet": 111,
+        "eve": 110,
+        "always": 110,
+        "pliny": 109,
+        "paradise": 109,
+        "full": 109,
+        "queen": 108,
+        "even": 108,
+        "forth": 108,
+        "ground": 108,
+        "planted": 108,
+        "lady": 107,
+        "last": 107,
+        "call": 106,
+        "years": 105,
+        "church": 105,
+        "seen": 105,
+        "often": 105,
+        "garlands": 104,
+        "dead": 104,
+        "india": 104,
+        "sometimes": 103,
+        "grass": 102,
+        "world": 102,
+        "probably": 102,
+        "without": 102,
+        "represented": 101,
+        "relates": 101,
+        "never": 101,
+        "apple": 101,
+        "fell": 101,
+        "dedicated": 100,
+        "say": 100,
+        "red": 100,
+        "obtained": 100,
+        "hands": 100,
+        "green": 100,
+        "ash": 99,
+        "human": 99,
+        "women": 99,
+        "symbol": 99,
+        "children": 99,
+        "goddess": 99,
+        "part": 98,
+        "derived": 98,
+        "similar": 98,
+        "carried": 98,
+        "become": 98,
+        "lord": 97,
+        "body": 97,
+        "branch": 97,
+        "brought": 96,
+        "seed": 95,
+        "several": 95,
+        "mary": 94,
+        "leaf": 94,
+        "present": 93,
+        "palm": 93,
+        "new": 93,
+        "take": 93,
+        "taken": 92,
+        "gathered": 92,
+        "took": 92,
+        "mother": 91,
+        "ever": 91,
+        "juice": 91,
+        "small": 90,
+        "put": 90,
+        "gave": 90,
+        "wine": 90,
+        "come": 90,
+        "christ": 90,
+        "soon": 90,
+        "magical": 89,
+        "common": 89,
+        "fern": 89,
+        "beauty": 89,
+        "house": 89,
+        "emblem": 89,
+        "laurel": 88,
+        "states": 88,
+        "jupiter": 86,
+        "sprang": 86,
+        "cypress": 85,
+        "thorn": 85,
+        "black": 85,
+        "spring": 85,
+        "afterwards": 85,
+        "france": 85,
+        "till": 85,
+        "french": 84,
+        "fairy": 84,
+        "properties": 84,
+        "others": 84,
+        "four": 84,
+        "generally": 83,
+        "therefore": 83,
+        "blossoms": 83,
+        "favourite": 83,
+        "thy": 83,
+        "yellow": 83,
+        "boughs": 82,
+        "places": 82,
+        "heaven": 82,
+        "beautiful": 82,
+        "husband": 82,
+        "feet": 82,
+        "set": 82,
+        "might": 82,
+        "wife": 82,
+        "adam": 81,
+        "food": 81,
+        "either": 81,
+        "heart": 81,
+        "colour": 81,
+        "nature": 80,
+        "seeds": 80,
+        "floral": 80,
+        "early": 80,
+        "growing": 80,
+        "sea": 79,
+        "lover": 79,
+        "high": 79,
+        "gold": 79,
+        "consecrated": 78,
+        "honour": 78,
+        "word": 78,
+        "foot": 78,
+        "eat": 78,
+        "applied": 78,
+        "yet": 77,
+        "large": 77,
+        "came": 77,
+        "corn": 77,
+        "blossom": 77,
+        "astrologers": 77,
+        "since": 76,
+        "birds": 76,
+        "although": 76,
+        "formed": 76,
+        "thou": 76,
+        "myrtle": 76,
+        "popular": 75,
+        "land": 74,
+        "lily": 74,
+        "serpents": 74,
+        "apples": 74,
+        "thorns": 73,
+        "told": 73,
+        "reputed": 73,
+        "gives": 73,
+        "eyes": 73,
+        "give": 73,
+        "mountain": 72,
+        "child": 72,
+        "girl": 72,
+        "let": 71,
+        "ivy": 71,
+        "east": 71,
+        "crowned": 71,
+        "violet": 70,
+        "woman": 70,
+        "grow": 70,
+        "fair": 70,
+        "son": 69,
+        "gubernatis": 69,
+        "person": 69,
+        "received": 69,
+        "forest": 68,
+        "lotus": 68,
+        "roman": 68,
+        "superstition": 68,
+        "cause": 68,
+        "worn": 68,
+        "way": 68,
+        "curious": 67,
+        "father": 67,
+        "countries": 67,
+        "italy": 67,
+        "true": 67,
+        "hundred": 66,
+        "mystic": 66,
+        "saviour": 66,
+        "knowledge": 65,
+        "festival": 65,
+        "egypt": 65,
+        "virtues": 65,
+        "whole": 65,
+        "covered": 65,
+        "left": 65,
+        "temple": 65,
+        "saying": 65,
+        "shakspeare": 64,
+        "superstitious": 64,
+        "celebrated": 64,
+        "end": 64,
+        "poor": 64,
+        "morning": 63,
+        "five": 63,
+        "lightning": 63,
+        "charm": 63,
+        "olden": 63,
+        "spot": 63,
+        "changed": 63,
+        "greek": 63,
+        "around": 63,
+        "state": 62,
+        "christmas": 62,
+        "funeral": 62,
+        "infant": 62,
+        "kind": 62,
+        "birth": 61,
+        "vervain": 61,
+        "caused": 61,
+        "eye": 61,
+        "words": 61,
+        "together": 61,
+        "customary": 61,
+        "work": 60,
+        "fairies": 60,
+        "connected": 60,
+        "poisonous": 60,
+        "elder": 60,
+        "deemed": 60,
+        "bird": 60,
+        "story": 60,
+        "thee": 60,
+        "hair": 60,
+        "egyptians": 59,
+        "ceremonies": 59,
+        "maiden": 59,
+        "german": 59,
+        "mistletoe": 59,
+        "shade": 59,
+        "family": 59,
+        "century": 59,
+        "bears": 59,
+        "priests": 59,
+        "number": 59,
+        "apollo": 59,
+        "dominion": 59,
+        "milk": 59,
+        "stated": 59,
+        "bear": 59,
+        "chinese": 58,
+        "feast": 58,
+        "shape": 58,
+        "produced": 58,
+        "appear": 58,
+        "light": 58,
+        "composed": 58,
+        "offered": 58,
+        "blue": 58,
+        "cedar": 57,
+        "inhabitants": 57,
+        "hung": 57,
+        "poets": 57,
+        "reason": 57,
+        "race": 57,
+        "sent": 57,
+        "saw": 57,
+        "highly": 57,
+        "laid": 57,
+        "wreaths": 56,
+        "nymph": 56,
+        "rod": 56,
+        "bearing": 56,
+        "especially": 56,
+        "fall": 56,
+        "spirit": 56,
+        "kept": 56,
+        "marriage": 56,
+        "fact": 55,
+        "herbalists": 55,
+        "horses": 55,
+        "transformed": 55,
+        "rue": 55,
+        "grave": 55,
+        "chapter": 54,
+        "oaks": 54,
+        "rosemary": 54,
+        "best": 54,
+        "stem": 54,
+        "side": 54,
+        "houses": 54,
+        "rest": 54,
+        "page": 53,
+        "bride": 53,
+        "vine": 53,
+        "face": 53,
+        "youth": 53,
+        "indians": 53,
+        "sleep": 53,
+        "olive": 53,
+        "jesus": 53,
+        "remedy": 53,
+        "deadly": 52,
+        "influence": 52,
+        "divine": 52,
+        "island": 52,
+        "special": 52,
+        "purpose": 52,
+        "open": 52,
+        "appears": 52,
+        "daughter": 52,
+        "read": 52,
+        "remarks": 52,
+        "though": 52,
+        "dragon": 51,
+        "moss": 51,
+        "magic": 51,
+        "vegetable": 51,
+        "mercury": 51,
+        "sought": 51,
+        "saint": 51,
+        "shepherd": 51,
+        "wort": 51,
+        "fresh": 51,
+        "length": 51,
+        "tell": 51,
+        "speaks": 51,
+        "native": 51,
+        "daisy": 51,
+        "thistle": 51,
+        "seq": 51,
+        "various": 50,
+        "holly": 50,
+        "diseases": 50,
+        "winter": 50,
+        "foliage": 50,
+        "shrub": 50,
+        "middle": 50,
+        "introduced": 50,
+        "precious": 50,
+        "perhaps": 50,
+        "home": 50,
+        "allusion": 50,
+        "appeared": 49,
+        "rapin": 49,
+        "fragrant": 49,
+        "trunk": 49,
+        "north": 49,
+        "manner": 49,
+        "ovid": 49,
+        "tears": 49,
+        "hath": 49,
+        "gather": 49,
+        "maidens": 49,
+        "within": 49,
+        "resembling": 49,
+        "writes": 49,
+        "lay": 49,
+        "specially": 49,
+        "yew": 48
+      }
+    },
+    {
+      "title": "The Plant-Lore & Garden-Craft of Shakespeare",
+      "author": "Henry Nicholson Ellacombe",
+      "total_words": 174267,
+      "unique_words": 13787,
+      "lexical_diversity": 0.07911423275777973,
+      "sentiment": {
+        "positive": 0.114,
+        "negative": 0.046,
+        "neutral": 0.841,
+        "compound": 1.0
+      },
+      "top_words": [
+        {
+          "word": "act",
+          "count": 1029
+        },
+        {
+          "word": "tree",
+          "count": 412
+        },
+        {
+          "word": "shakespeare",
+          "count": 366
+        },
+        {
+          "word": "plant",
+          "count": 362
+        },
+        {
+          "word": "name",
+          "count": 355
+        },
+        {
+          "word": "flowers",
+          "count": 341
+        },
+        {
+          "word": "one",
+          "count": 323
+        },
+        {
+          "word": "time",
+          "count": 291
+        },
+        {
+          "word": "may",
+          "count": 282
+        },
+        {
+          "word": "gerard",
+          "count": 266
+        },
+        {
+          "word": "flower",
+          "count": 258
+        },
+        {
+          "word": "many",
+          "count": 252
+        },
+        {
+          "word": "garden",
+          "count": 244
+        },
+        {
+          "word": "like",
+          "count": 228
+        },
+        {
+          "word": "rose",
+          "count": 226
+        },
+        {
+          "word": "england",
+          "count": 199
+        },
+        {
+          "word": "see",
+          "count": 197
+        },
+        {
+          "word": "old",
+          "count": 196
+        },
+        {
+          "word": "henry",
+          "count": 192
+        },
+        {
+          "word": "much",
+          "count": 192
+        },
+        {
+          "word": "iii",
+          "count": 187
+        },
+        {
+          "word": "though",
+          "count": 184
+        },
+        {
+          "word": "yet",
+          "count": 179
+        },
+        {
+          "word": "plants",
+          "count": 176
+        },
+        {
+          "word": "english",
+          "count": 172
+        },
+        {
+          "word": "also",
+          "count": 171
+        },
+        {
+          "word": "well",
+          "count": 169
+        },
+        {
+          "word": "cotgrave",
+          "count": 169
+        },
+        {
+          "word": "two",
+          "count": 159
+        },
+        {
+          "word": "turner",
+          "count": 159
+        },
+        {
+          "word": "fruit",
+          "count": 157
+        },
+        {
+          "word": "called",
+          "count": 156
+        },
+        {
+          "word": "promptorium",
+          "count": 153
+        },
+        {
+          "word": "good",
+          "count": 152
+        },
+        {
+          "word": "ibid",
+          "count": 147
+        },
+        {
+          "word": "says",
+          "count": 143
+        },
+        {
+          "word": "would",
+          "count": 141
+        },
+        {
+          "word": "little",
+          "count": 140
+        },
+        {
+          "word": "great",
+          "count": 137
+        },
+        {
+          "word": "sweet",
+          "count": 137
+        },
+        {
+          "word": "still",
+          "count": 136
+        },
+        {
+          "word": "must",
+          "count": 135
+        },
+        {
+          "word": "love",
+          "count": 133
+        },
+        {
+          "word": "gardens",
+          "count": 133
+        },
+        {
+          "word": "catholicon",
+          "count": 128
+        },
+        {
+          "word": "white",
+          "count": 127
+        },
+        {
+          "word": "used",
+          "count": 126
+        },
+        {
+          "word": "thy",
+          "count": 125
+        },
+        {
+          "word": "long",
+          "count": 122
+        },
+        {
+          "word": "trees",
+          "count": 122
+        },
+        {
+          "word": "upon",
+          "count": 121
+        },
+        {
+          "word": "made",
+          "count": 120
+        },
+        {
+          "word": "first",
+          "count": 120
+        },
+        {
+          "word": "even",
+          "count": 120
+        },
+        {
+          "word": "species",
+          "count": 119
+        },
+        {
+          "word": "footnotes",
+          "count": 117
+        },
+        {
+          "word": "leaves",
+          "count": 117
+        },
+        {
+          "word": "probably",
+          "count": 114
+        },
+        {
+          "word": "shall",
+          "count": 112
+        },
+        {
+          "word": "lily",
+          "count": 110
+        },
+        {
+          "word": "wild",
+          "count": 108
+        },
+        {
+          "word": "found",
+          "count": 108
+        },
+        {
+          "word": "century",
+          "count": 106
+        },
+        {
+          "word": "every",
+          "count": 105
+        },
+        {
+          "word": "names",
+          "count": 105
+        },
+        {
+          "word": "make",
+          "count": 105
+        },
+        {
+          "word": "night",
+          "count": 105
+        },
+        {
+          "word": "common",
+          "count": 104
+        },
+        {
+          "word": "roses",
+          "count": 102
+        },
+        {
+          "word": "thou",
+          "count": 102
+        },
+        {
+          "word": "use",
+          "count": 100
+        },
+        {
+          "word": "among",
+          "count": 98
+        },
+        {
+          "word": "day",
+          "count": 98
+        },
+        {
+          "word": "beauty",
+          "count": 98
+        },
+        {
+          "word": "place",
+          "count": 96
+        },
+        {
+          "word": "daisy",
+          "count": 94
+        },
+        {
+          "word": "almost",
+          "count": 94
+        },
+        {
+          "word": "corn",
+          "count": 94
+        },
+        {
+          "word": "oak",
+          "count": 92
+        },
+        {
+          "word": "man",
+          "count": 90
+        },
+        {
+          "word": "never",
+          "count": 90
+        },
+        {
+          "word": "grown",
+          "count": 90
+        },
+        {
+          "word": "said",
+          "count": 89
+        },
+        {
+          "word": "grow",
+          "count": 89
+        },
+        {
+          "word": "original",
+          "count": 88
+        },
+        {
+          "word": "could",
+          "count": 88
+        },
+        {
+          "word": "say",
+          "count": 88
+        },
+        {
+          "word": "early",
+          "count": 87
+        },
+        {
+          "word": "winter",
+          "count": 87
+        },
+        {
+          "word": "account",
+          "count": 85
+        },
+        {
+          "word": "seems",
+          "count": 84
+        },
+        {
+          "word": "given",
+          "count": 84
+        },
+        {
+          "word": "curious",
+          "count": 81
+        },
+        {
+          "word": "find",
+          "count": 80
+        },
+        {
+          "word": "writers",
+          "count": 80
+        },
+        {
+          "word": "thee",
+          "count": 80
+        },
+        {
+          "word": "willow",
+          "count": 80
+        },
+        {
+          "word": "native",
+          "count": 79
+        },
+        {
+          "word": "give",
+          "count": 78
+        },
+        {
+          "word": "true",
+          "count": 77
+        }
+      ],
+      "bag_of_words": {
+        "act": 1029,
+        "tree": 412,
+        "shakespeare": 366,
+        "plant": 362,
+        "name": 355,
+        "flowers": 341,
+        "one": 323,
+        "time": 291,
+        "may": 282,
+        "gerard": 266,
+        "flower": 258,
+        "many": 252,
+        "garden": 244,
+        "like": 228,
+        "rose": 226,
+        "england": 199,
+        "see": 197,
+        "old": 196,
+        "henry": 192,
+        "much": 192,
+        "iii": 187,
+        "though": 184,
+        "yet": 179,
+        "plants": 176,
+        "english": 172,
+        "also": 171,
+        "well": 169,
+        "cotgrave": 169,
+        "two": 159,
+        "turner": 159,
+        "fruit": 157,
+        "called": 156,
+        "promptorium": 153,
+        "good": 152,
+        "ibid": 147,
+        "says": 143,
+        "would": 141,
+        "little": 140,
+        "great": 137,
+        "sweet": 137,
+        "still": 136,
+        "must": 135,
+        "love": 133,
+        "gardens": 133,
+        "catholicon": 128,
+        "white": 127,
+        "used": 126,
+        "thy": 125,
+        "long": 122,
+        "trees": 122,
+        "upon": 121,
+        "made": 120,
+        "first": 120,
+        "even": 120,
+        "species": 119,
+        "footnotes": 117,
+        "leaves": 117,
+        "probably": 114,
+        "shall": 112,
+        "lily": 110,
+        "wild": 108,
+        "found": 108,
+        "century": 106,
+        "every": 105,
+        "names": 105,
+        "make": 105,
+        "night": 105,
+        "common": 104,
+        "roses": 102,
+        "thou": 102,
+        "use": 100,
+        "among": 98,
+        "day": 98,
+        "beauty": 98,
+        "place": 96,
+        "daisy": 94,
+        "almost": 94,
+        "corn": 94,
+        "oak": 92,
+        "man": 90,
+        "never": 90,
+        "grown": 90,
+        "said": 89,
+        "grow": 89,
+        "original": 88,
+        "could": 88,
+        "say": 88,
+        "early": 87,
+        "winter": 87,
+        "account": 85,
+        "seems": 84,
+        "given": 84,
+        "curious": 81,
+        "find": 80,
+        "writers": 80,
+        "thee": 80,
+        "willow": 80,
+        "native": 79,
+        "give": 78,
+        "true": 77,
+        "seen": 76,
+        "king": 76,
+        "word": 76,
+        "mentioned": 74,
+        "primrose": 74,
+        "know": 73,
+        "full": 72,
+        "thus": 72,
+        "spring": 72,
+        "grass": 72,
+        "introduced": 71,
+        "come": 71,
+        "colour": 71,
+        "vine": 71,
+        "pretty": 70,
+        "certainly": 70,
+        "tale": 70,
+        "beautiful": 70,
+        "especially": 68,
+        "perhaps": 68,
+        "apple": 68,
+        "page": 68,
+        "large": 67,
+        "without": 67,
+        "violet": 67,
+        "book": 66,
+        "cultivated": 66,
+        "another": 66,
+        "high": 66,
+        "form": 65,
+        "sir": 65,
+        "red": 64,
+        "ever": 64,
+        "hath": 64,
+        "lost": 64,
+        "thorns": 64,
+        "way": 63,
+        "green": 63,
+        "times": 62,
+        "supposed": 62,
+        "saffron": 62,
+        "pleasant": 61,
+        "might": 61,
+        "different": 61,
+        "midsummer": 61,
+        "dream": 61,
+        "whose": 60,
+        "named": 60,
+        "doth": 60,
+        "handsome": 60,
+        "however": 59,
+        "spenser": 58,
+        "europe": 58,
+        "doubt": 58,
+        "always": 58,
+        "wheat": 58,
+        "summer": 57,
+        "uses": 55,
+        "think": 55,
+        "family": 55,
+        "varieties": 55,
+        "country": 54,
+        "british": 54,
+        "ground": 54,
+        "history": 53,
+        "others": 53,
+        "favourite": 53,
+        "parts": 53,
+        "growing": 53,
+        "cedar": 53,
+        "passages": 52,
+        "known": 52,
+        "chaucer": 52,
+        "richard": 52,
+        "small": 52,
+        "part": 52,
+        "herbe": 52,
+        "lord": 51,
+        "queen": 51,
+        "cultivation": 51,
+        "john": 51,
+        "gives": 51,
+        "men": 51,
+        "latin": 50,
+        "nothing": 50,
+        "three": 50,
+        "hamlet": 50,
+        "rush": 50,
+        "let": 49,
+        "applied": 49,
+        "tempest": 49,
+        "pine": 49,
+        "balm": 49,
+        "sugar": 49,
+        "often": 48,
+        "places": 48,
+        "herb": 48,
+        "romeo": 48,
+        "south": 48,
+        "wood": 48,
+        "either": 48,
+        "parkinson": 48,
+        "yew": 48,
+        "best": 47,
+        "new": 47,
+        "description": 47,
+        "none": 47,
+        "head": 47,
+        "daisies": 47,
+        "noble": 46,
+        "smell": 46,
+        "show": 46,
+        "certain": 46,
+        "year": 46,
+        "till": 46,
+        "sun": 46,
+        "nettles": 46,
+        "call": 46,
+        "several": 45,
+        "labour": 45,
+        "take": 45,
+        "ivy": 45,
+        "violets": 45,
+        "words": 44,
+        "field": 44,
+        "life": 44,
+        "modern": 44,
+        "whole": 44,
+        "last": 44,
+        "years": 44,
+        "date": 44,
+        "palm": 44,
+        "nettle": 44,
+        "olive": 44,
+        "fair": 43,
+        "nature": 43,
+        "tre": 43,
+        "seem": 43,
+        "better": 42,
+        "meant": 42,
+        "rich": 42,
+        "juliet": 42,
+        "far": 41,
+        "away": 41,
+        "crown": 41,
+        "cowslip": 41,
+        "thyme": 41,
+        "thistle": 41,
+        "nut": 41,
+        "elder": 41,
+        "worth": 40,
+        "root": 40,
+        "romans": 40,
+        "song": 40,
+        "soon": 40,
+        "grows": 40,
+        "rue": 40,
+        "double": 39,
+        "art": 39,
+        "note": 39,
+        "considered": 39,
+        "speaks": 39,
+        "yellow": 39,
+        "merry": 39,
+        "measure": 39,
+        "holly": 39,
+        "quite": 38,
+        "present": 38,
+        "north": 38,
+        "round": 38,
+        "eat": 38,
+        "grapes": 38,
+        "grace": 38,
+        "rosemary": 38,
+        "gardener": 37,
+        "kinsmen": 37,
+        "whether": 37,
+        "passage": 37,
+        "hand": 37,
+        "est": 37,
+        "brought": 37,
+        "hardy": 37,
+        "fig": 37,
+        "world": 36,
+        "notice": 36,
+        "sea": 36,
+        "emblem": 36,
+        "bay": 36,
+        "brier": 36,
+        "largely": 35,
+        "rather": 35,
+        "planted": 35,
+        "branches": 35,
+        "rushes": 35,
+        "knowledge": 34,
+        "character": 34,
+        "believe": 34,
+        "open": 34,
+        "bring": 34,
+        "milton": 34,
+        "excellent": 34,
+        "vocabulary": 34,
+        "forth": 34,
+        "comes": 34,
+        "water": 34,
+        "moss": 34,
+        "flax": 34,
+        "interest": 33,
+        "following": 33,
+        "described": 33,
+        "chiefly": 33,
+        "grew": 33,
+        "young": 33,
+        "lear": 33,
+        "set": 33,
+        "wives": 33,
+        "need": 33,
+        "except": 33,
+        "food": 33,
+        "fine": 33,
+        "season": 33,
+        "wormwood": 33,
+        "strawberry": 33,
+        "special": 32,
+        "eyes": 32,
+        "things": 32,
+        "tell": 32,
+        "blood": 32,
+        "makes": 32,
+        "bear": 32,
+        "crab": 32,
+        "look": 32,
+        "orange": 32,
+        "variety": 32,
+        "poets": 32,
+        "growth": 32,
+        "gardeners": 32,
+        "gardening": 31,
+        "general": 31,
+        "chief": 31,
+        "dead": 31,
+        "virtues": 31,
+        "derived": 31,
+        "earth": 31,
+        "adonis": 31,
+        "generally": 31,
+        "falstaff": 31,
+        "lady": 31,
+        "land": 31,
+        "vol": 31,
+        "cherry": 31,
+        "laurel": 31,
+        "near": 31,
+        "reed": 31,
+        "produced": 30,
+        "useful": 30,
+        "saw": 30,
+        "ornamental": 30,
+        "put": 30,
+        "wine": 30,
+        "bitter": 30,
+        "pliny": 30,
+        "seed": 30,
+        "death": 30,
+        "scent": 30,
+        "vineyards": 30,
+        "mulberry": 30,
+        "mustard": 30,
+        "published": 29,
+        "interesting": 29,
+        "spoke": 29,
+        "sorts": 29,
+        "twelfth": 29,
+        "tells": 29,
+        "venus": 29,
+        "lines": 29,
+        "poppy": 29,
+        "sometimes": 29,
+        "value": 29,
+        "poor": 29,
+        "oats": 29,
+        "together": 29,
+        "hawthorn": 29,
+        "othello": 29,
+        "elm": 29,
+        "marjoram": 29,
+        "natural": 28,
+        "right": 28,
+        "connection": 28,
+        "french": 28,
+        "ancient": 28,
+        "describes": 28,
+        "quince": 28,
+        "timon": 28,
+        "cleopatra": 28,
+        "iris": 28,
+        "custom": 28,
+        "darnel": 28,
+        "besides": 27,
+        "reason": 27,
+        "probable": 27,
+        "shape": 27,
+        "came": 27,
+        "shrub": 27,
+        "mentions": 27,
+        "purple": 27,
+        "pale": 27,
+        "bright": 27,
+        "soil": 27,
+        "connected": 27,
+        "cymbeline": 27,
+        "honour": 27,
+        "weeds": 27,
+        "heath": 27,
+        "ginger": 27,
+        "honeysuckle": 27,
+        "medlar": 27,
+        "reading": 26,
+        "london": 26,
+        "since": 26,
+        "reference": 26,
+        "quoted": 26,
+        "simply": 26,
+        "scarcely": 26,
+        "within": 26,
+        "prior": 26,
+        "told": 26,
+        "imported": 26,
+        "box": 26,
+        "hemlock": 26,
+        "herbs": 26,
+        "leek": 26,
+        "marigold": 26,
+        "plantain": 26,
+        "strong": 25,
+        "therefore": 25,
+        "fresh": 25,
+        "number": 25,
+        "bible": 25,
+        "browne": 25,
+        "colours": 25,
+        "coriolanus": 25,
+        "end": 25,
+        "ripe": 25,
+        "speaking": 25,
+        "lyte": 25,
+        "botanical": 25,
+        "air": 25,
+        "antony": 25,
+        "briers": 25,
+        "thorn": 25,
+        "mandrake": 25,
+        "walnut": 25,
+        "subject": 24,
+        "woods": 24,
+        "indeed": 24,
+        "ben": 24,
+        "lilies": 24,
+        "vocabularies": 24,
+        "translation": 24,
+        "taken": 24,
+        "troilus": 24,
+        "anemone": 24,
+        "wind": 24,
+        "dry": 24,
+        "sixteenth": 24,
+        "according": 24,
+        "origin": 24,
+        "rye": 24,
+        "plum": 24,
+        "peas": 24,
+        "bramble": 24,
+        "pink": 24,
+        "close": 24,
+        "ophelia": 24,
+        "eglantine": 24,
+        "pear": 24,
+        "work": 23,
+        "poet": 23,
+        "introduction": 23,
+        "point": 23,
+        "single": 23,
+        "entirely": 23,
+        "mention": 23,
+        "fruits": 23,
+        "confined": 23,
+        "held": 23,
+        "blue": 23,
+        "parvulorum": 23,
+        "unto": 23,
+        "cold": 23,
+        "ornament": 23,
+        "apples": 23,
+        "viii": 23,
+        "speak": 23,
+        "means": 23,
+        "golden": 23,
+        "delicate": 23,
+        "seeds": 23,
+        "figs": 23
+      }
+    }
+  ],
+  "comparison": {
+    "total_shared_words": 7319,
+    "unique_to_folkard": 12863,
+    "unique_to_shakespeare": 6468,
+    "overlap_percentage": 27.463414634146343,
+    "top_shared_words": [
+      {
+        "word": "tree",
+        "combined_count": 1394
+      },
+      {
+        "word": "plant",
+        "combined_count": 1154
+      },
+      {
+        "word": "one",
+        "combined_count": 1085
+      },
+      {
+        "word": "act",
+        "combined_count": 1052
+      },
+      {
+        "word": "name",
+        "combined_count": 970
+      },
+      {
+        "word": "flowers",
+        "combined_count": 940
+      },
+      {
+        "word": "called",
+        "combined_count": 857
+      },
+      {
+        "word": "flower",
+        "combined_count": 754
+      },
+      {
+        "word": "old",
+        "combined_count": 687
+      },
+      {
+        "word": "plants",
+        "combined_count": 646
+      },
+      {
+        "word": "time",
+        "combined_count": 638
+      },
+      {
+        "word": "also",
+        "combined_count": 628
+      },
+      {
+        "word": "may",
+        "combined_count": 560
+      },
+      {
+        "word": "day",
+        "combined_count": 524
+      },
+      {
+        "word": "trees",
+        "combined_count": 524
+      },
+      {
+        "word": "many",
+        "combined_count": 513
+      },
+      {
+        "word": "upon",
+        "combined_count": 513
+      },
+      {
+        "word": "leaves",
+        "combined_count": 502
+      },
+      {
+        "word": "like",
+        "combined_count": 464
+      },
+      {
+        "word": "says",
+        "combined_count": 458
+      },
+      {
+        "word": "see",
+        "combined_count": 454
+      },
+      {
+        "word": "fruit",
+        "combined_count": 441
+      },
+      {
+        "word": "made",
+        "combined_count": 439
+      },
+      {
+        "word": "first",
+        "combined_count": 438
+      },
+      {
+        "word": "rose",
+        "combined_count": 430
+      },
+      {
+        "word": "used",
+        "combined_count": 410
+      },
+      {
+        "word": "great",
+        "combined_count": 393
+      },
+      {
+        "word": "sacred",
+        "combined_count": 392
+      },
+      {
+        "word": "herb",
+        "combined_count": 392
+      },
+      {
+        "word": "would",
+        "combined_count": 390
+      },
+      {
+        "word": "garden",
+        "combined_count": 386
+      },
+      {
+        "word": "good",
+        "combined_count": 380
+      },
+      {
+        "word": "love",
+        "combined_count": 378
+      },
+      {
+        "word": "found",
+        "combined_count": 376
+      },
+      {
+        "word": "according",
+        "combined_count": 374
+      },
+      {
+        "word": "england",
+        "combined_count": 373
+      },
+      {
+        "word": "among",
+        "combined_count": 355
+      },
+      {
+        "word": "said",
+        "combined_count": 350
+      },
+      {
+        "word": "white",
+        "combined_count": 348
+      },
+      {
+        "word": "still",
+        "combined_count": 346
+      },
+      {
+        "word": "two",
+        "combined_count": 346
+      },
+      {
+        "word": "man",
+        "combined_count": 339
+      },
+      {
+        "word": "well",
+        "combined_count": 334
+      },
+      {
+        "word": "much",
+        "combined_count": 323
+      },
+      {
+        "word": "english",
+        "combined_count": 317
+      },
+      {
+        "word": "given",
+        "combined_count": 316
+      },
+      {
+        "word": "every",
+        "combined_count": 311
+      },
+      {
+        "word": "thus",
+        "combined_count": 310
+      },
+      {
+        "word": "long",
+        "combined_count": 307
+      },
+      {
+        "word": "king",
+        "combined_count": 306
+      }
+    ],
+    "top_unique_folkard": [
+      "moste",
+      "rambles",
+      "missionaries",
+      "graffe",
+      "fines",
+      "suitor",
+      "gasping",
+      "supercilium",
+      "scares",
+      "tansy",
+      "snake",
+      "javanese",
+      "tripos",
+      "fagots",
+      "kshetriya",
+      "hostesses",
+      "manum",
+      "casements",
+      "enjoined",
+      "longings",
+      "prophetically",
+      "lysimachia",
+      "cosmical",
+      "travelling",
+      "kabyle",
+      "turmeric",
+      "phoceans",
+      "nasturtium",
+      "provinsa",
+      "aver"
+    ],
+    "top_unique_shakespeare": [
+      "speargrass",
+      "phillon",
+      "drily",
+      "honore",
+      "fearfully",
+      "gowtus",
+      "bondjia",
+      "malum",
+      "agayne",
+      "lylly",
+      "dering",
+      "colo",
+      "erdbeere",
+      "snarre",
+      "flaskets",
+      "majesties",
+      "fye",
+      "arborem",
+      "garnishing",
+      "boehmerias",
+      "soile",
+      "goldes",
+      "furres",
+      "valois",
+      "puritie",
+      "gorste",
+      "dool",
+      "bientot",
+      "kirtle",
+      "diversis"
+    ]
+  },
+  "metadata": {
+    "analysis_type": "distant_reading",
+    "sentiment_method": "VADER",
+    "stopwords_removed": true,
+    "wordcloud_images": {
+      "folkard": "wordcloud_folkard.png",
+      "shakespeare": "wordcloud_shakespeare.png"
+    }
+  }
+}

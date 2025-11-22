@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Lore: A Victorian Garden of Words</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-container">
+        <!-- Header -->
+        <header class="botanical-header">
+            <div class="ornamental-border-top"></div>
+            <h1 class="main-title">
+                <span class="flourish-left">❦</span>
+                Plant Lore
+                <span class="flourish-right">❦</span>
+            </h1>
+            <p class="subtitle">A Distant Reading of Victorian Botanical Literature</p>
+            <div class="ornamental-border-bottom"></div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="text-navigation">
+            <button class="nav-btn active" data-view="folkard" id="btn-folkard">
+                <span class="btn-decoration">◈</span>
+                Folkard: Legends & Lyrics
+                <span class="btn-decoration">◈</span>
+            </button>
+            <button class="nav-btn" data-view="shakespeare" id="btn-shakespeare">
+                <span class="btn-decoration">◈</span>
+                Ellacombe: Shakespeare's Garden
+                <span class="btn-decoration">◈</span>
+            </button>
+            <button class="nav-btn" data-view="comparison" id="btn-comparison">
+                <span class="btn-decoration">◈</span>
+                Comparative Analysis
+                <span class="btn-decoration">◈</span>
+            </button>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="content-area">
+            <!-- Single Text View -->
+            <section class="text-view" id="view-folkard">
+                <div class="text-card">
+                    <h2 class="text-title">Plant Lore, Legends, and Lyrics</h2>
+                    <p class="text-author">by Richard Folkard, Jun. (1884)</p>
+
+                    <div class="analysis-grid">
+                        <div class="analysis-card">
+                            <h3>Textual Statistics</h3>
+                            <div class="stat-item">
+                                <span class="stat-label">Total Words:</span>
+                                <span class="stat-value" id="folkard-total-words">-</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Unique Words:</span>
+                                <span class="stat-value" id="folkard-unique-words">-</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Lexical Diversity:</span>
+                                <span class="stat-value" id="folkard-lexical-diversity">-</span>
+                            </div>
+                        </div>
+
+                        <div class="analysis-card">
+                            <h3>Sentiment Analysis (VADER)</h3>
+                            <div class="sentiment-bars">
+                                <div class="sentiment-item">
+                                    <span class="sentiment-label">Positive:</span>
+                                    <div class="sentiment-bar">
+                                        <div class="sentiment-fill positive" id="folkard-sent-pos"></div>
+                                    </div>
+                                    <span class="sentiment-value" id="folkard-sent-pos-val">-</span>
+                                </div>
+                                <div class="sentiment-item">
+                                    <span class="sentiment-label">Negative:</span>
+                                    <div class="sentiment-bar">
+                                        <div class="sentiment-fill negative" id="folkard-sent-neg"></div>
+                                    </div>
+                                    <span class="sentiment-value" id="folkard-sent-neg-val">-</span>
+                                </div>
+                                <div class="sentiment-item">
+                                    <span class="sentiment-label">Neutral:</span>
+                                    <div class="sentiment-bar">
+                                        <div class="sentiment-fill neutral" id="folkard-sent-neu"></div>
+                                    </div>
+                                    <span class="sentiment-value" id="folkard-sent-neu-val">-</span>
+                                </div>
+                                <div class="sentiment-item compound">
+                                    <span class="sentiment-label">Compound Score:</span>
+                                    <span class="sentiment-value large" id="folkard-sent-compound">-</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wordcloud-container">
+                        <h3>Word Cloud</h3>
+                        <img src="wordcloud_folkard.png" alt="Folkard Word Cloud" class="wordcloud-image">
+                    </div>
+
+                    <div class="top-words-container">
+                        <h3>Most Common Words</h3>
+                        <div class="top-words-grid" id="folkard-top-words"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="text-view" id="view-shakespeare" style="display: none;">
+                <div class="text-card">
+                    <h2 class="text-title">The Plant-Lore & Garden-Craft of Shakespeare</h2>
+                    <p class="text-author">by Henry Nicholson Ellacombe</p>
+
+                    <div class="analysis-grid">
+                        <div class="analysis-card">
+                            <h3>Textual Statistics</h3>
+                            <div class="stat-item">
+                                <span class="stat-label">Total Words:</span>
+                                <span class="stat-value" id="shakespeare-total-words">-</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Unique Words:</span>
+                                <span class="stat-value" id="shakespeare-unique-words">-</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Lexical Diversity:</span>
+                                <span class="stat-value" id="shakespeare-lexical-diversity">-</span>
+                            </div>
+                        </div>
+
+                        <div class="analysis-card">
+                            <h3>Sentiment Analysis (VADER)</h3>
+                            <div class="sentiment-bars">
+                                <div class="sentiment-item">
+                                    <span class="sentiment-label">Positive:</span>
+                                    <div class="sentiment-bar">
+                                        <div class="sentiment-fill positive" id="shakespeare-sent-pos"></div>
+                                    </div>
+                                    <span class="sentiment-value" id="shakespeare-sent-pos-val">-</span>
+                                </div>
+                                <div class="sentiment-item">
+                                    <span class="sentiment-label">Negative:</span>
+                                    <div class="sentiment-bar">
+                                        <div class="sentiment-fill negative" id="shakespeare-sent-neg"></div>
+                                    </div>
+                                    <span class="sentiment-value" id="shakespeare-sent-neg-val">-</span>
+                                </div>
+                                <div class="sentiment-item">
+                                    <span class="sentiment-label">Neutral:</span>
+                                    <div class="sentiment-bar">
+                                        <div class="sentiment-fill neutral" id="shakespeare-sent-neu"></div>
+                                    </div>
+                                    <span class="sentiment-value" id="shakespeare-sent-neu-val">-</span>
+                                </div>
+                                <div class="sentiment-item compound">
+                                    <span class="sentiment-label">Compound Score:</span>
+                                    <span class="sentiment-value large" id="shakespeare-sent-compound">-</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wordcloud-container">
+                        <h3>Word Cloud</h3>
+                        <img src="wordcloud_shakespeare.png" alt="Shakespeare Word Cloud" class="wordcloud-image">
+                    </div>
+
+                    <div class="top-words-container">
+                        <h3>Most Common Words</h3>
+                        <div class="top-words-grid" id="shakespeare-top-words"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Comparison View -->
+            <section class="text-view" id="view-comparison" style="display: none;">
+                <div class="text-card">
+                    <h2 class="text-title">Comparative Analysis</h2>
+                    <p class="text-author">Folklore vs. Shakespeare Botanical Literature</p>
+
+                    <div class="comparison-stats">
+                        <div class="comp-stat-card">
+                            <h3>Vocabulary Overlap</h3>
+                            <div class="overlap-viz" id="overlap-chart"></div>
+                            <p class="overlap-percentage" id="overlap-percent">-</p>
+                            <p class="overlap-detail" id="overlap-detail">-</p>
+                        </div>
+                    </div>
+
+                    <div class="wordclouds-side-by-side">
+                        <div class="wordcloud-half">
+                            <h3>Folkard: Legends & Lyrics</h3>
+                            <img src="wordcloud_folkard.png" alt="Folkard Word Cloud" class="wordcloud-image-small">
+                        </div>
+                        <div class="wordcloud-half">
+                            <h3>Ellacombe: Shakespeare's Garden</h3>
+                            <img src="wordcloud_shakespeare.png" alt="Shakespeare Word Cloud" class="wordcloud-image-small">
+                        </div>
+                    </div>
+
+                    <div class="shared-words-section">
+                        <h3>Top Shared Vocabulary</h3>
+                        <div class="shared-words-grid" id="shared-words"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="botanical-footer">
+            <div class="ornamental-border-top"></div>
+            <p class="footer-text">A Distant Reading Analysis • Created with VADER Sentiment & WordCloud • Victorian Garden Design</p>
+            <p class="footer-credits">Texts from Project Gutenberg • Analysis by Python & D3.js</p>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,476 @@
+/* Victorian Garden Theme - Plant Lore Interface */
+
+:root {
+    /* Victorian Botanical Color Palette */
+    --sage-green: #8A9A8B;
+    --deep-forest: #4A5F4B;
+    --dusty-rose: #B08F8F;
+    --cream: #F5F5DC;
+    --parchment: #E8E4D8;
+    --gold-accent: #C9A961;
+    --burgundy: #6B394A;
+    --moss: #6B7F5F;
+
+    /* Typography */
+    --font-display: 'Cinzel', serif;
+    --font-body: 'Crimson Text', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--cream);
+    background-image:
+        linear-gradient(45deg, var(--parchment) 25%, transparent 25%),
+        linear-gradient(-45deg, var(--parchment) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, var(--parchment) 75%),
+        linear-gradient(-45deg, transparent 75%, var(--parchment) 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+    color: var(--deep-forest);
+    line-height: 1.6;
+}
+
+.page-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+.botanical-header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(to bottom, var(--parchment), var(--cream));
+    border: 3px double var(--sage-green);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ornamental-border-top,
+.ornamental-border-bottom {
+    height: 2px;
+    background: linear-gradient(to right,
+        transparent,
+        var(--gold-accent) 20%,
+        var(--gold-accent) 80%,
+        transparent
+    );
+    margin: 15px auto;
+    max-width: 600px;
+}
+
+.main-title {
+    font-family: var(--font-display);
+    font-size: 3em;
+    color: var(--burgundy);
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.flourish-left,
+.flourish-right {
+    color: var(--gold-accent);
+    font-size: 0.7em;
+    margin: 0 15px;
+}
+
+.subtitle {
+    font-family: var(--font-body);
+    font-size: 1.3em;
+    color: var(--moss);
+    font-style: italic;
+}
+
+/* Navigation */
+.text-navigation {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.nav-btn {
+    font-family: var(--font-display);
+    background: linear-gradient(to bottom, var(--parchment), var(--sage-green));
+    color: var(--deep-forest);
+    border: 2px solid var(--moss);
+    padding: 15px 30px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-btn:hover {
+    background: linear-gradient(to bottom, var(--sage-green), var(--moss));
+    color: var(--cream);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-btn.active {
+    background: linear-gradient(to bottom, var(--dusty-rose), var(--burgundy));
+    color: var(--cream);
+    border-color: var(--burgundy);
+}
+
+.btn-decoration {
+    color: var(--gold-accent);
+    font-size: 0.8em;
+    margin: 0 5px;
+}
+
+/* Content Area */
+.content-area {
+    min-height: 600px;
+}
+
+.text-card {
+    background: linear-gradient(to bottom right, var(--cream), var(--parchment));
+    border: 3px solid var(--sage-green);
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.text-title {
+    font-family: var(--font-display);
+    font-size: 2.2em;
+    color: var(--burgundy);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text-author {
+    font-style: italic;
+    color: var(--moss);
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+/* Analysis Grid */
+.analysis-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.analysis-card {
+    background: rgba(255, 255, 255, 0.7);
+    border: 2px solid var(--sage-green);
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.analysis-card h3 {
+    font-family: var(--font-display);
+    color: var(--burgundy);
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    border-bottom: 1px solid var(--gold-accent);
+    padding-bottom: 10px;
+}
+
+.stat-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px dotted var(--sage-green);
+}
+
+.stat-label {
+    font-weight: 600;
+    color: var(--deep-forest);
+}
+
+.stat-value {
+    color: var(--burgundy);
+    font-weight: 600;
+    font-family: var(--font-display);
+}
+
+/* Sentiment Analysis */
+.sentiment-item {
+    margin-bottom: 15px;
+}
+
+.sentiment-label {
+    display: block;
+    font-weight: 600;
+    color: var(--deep-forest);
+    margin-bottom: 5px;
+}
+
+.sentiment-bar {
+    height: 24px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.sentiment-fill {
+    height: 100%;
+    transition: width 0.5s ease;
+    border-radius: 12px;
+}
+
+.sentiment-fill.positive {
+    background: linear-gradient(to right, var(--moss), var(--sage-green));
+}
+
+.sentiment-fill.negative {
+    background: linear-gradient(to right, var(--dusty-rose), var(--burgundy));
+}
+
+.sentiment-fill.neutral {
+    background: linear-gradient(to right, var(--parchment), var(--gold-accent));
+}
+
+.sentiment-value {
+    display: inline-block;
+    font-weight: 600;
+    color: var(--burgundy);
+    font-family: var(--font-display);
+}
+
+.sentiment-item.compound {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid var(--gold-accent);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sentiment-value.large {
+    font-size: 1.8em;
+    color: var(--burgundy);
+}
+
+/* Word Cloud */
+.wordcloud-container {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.wordcloud-container h3 {
+    font-family: var(--font-display);
+    color: var(--burgundy);
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.wordcloud-image {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid var(--sage-green);
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+/* Top Words */
+.top-words-container {
+    margin: 40px 0;
+}
+
+.top-words-container h3 {
+    font-family: var(--font-display);
+    color: var(--burgundy);
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.top-words-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.word-item {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid var(--sage-green);
+    border-radius: 5px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+}
+
+.word-item:hover {
+    background: var(--sage-green);
+    color: var(--cream);
+    transform: scale(1.05);
+}
+
+.word-text {
+    font-weight: 600;
+}
+
+.word-count {
+    color: var(--burgundy);
+    font-family: var(--font-display);
+}
+
+/* Comparison View */
+.comparison-stats {
+    margin: 30px 0;
+}
+
+.comp-stat-card {
+    background: rgba(255, 255, 255, 0.7);
+    border: 2px solid var(--sage-green);
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+}
+
+.comp-stat-card h3 {
+    font-family: var(--font-display);
+    color: var(--burgundy);
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.overlap-viz {
+    margin: 30px auto;
+    max-width: 600px;
+}
+
+.overlap-percentage {
+    font-size: 3em;
+    font-family: var(--font-display);
+    color: var(--burgundy);
+    margin: 20px 0;
+}
+
+.overlap-detail {
+    font-size: 1.2em;
+    color: var(--moss);
+}
+
+.wordclouds-side-by-side {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.wordcloud-half {
+    text-align: center;
+}
+
+.wordcloud-half h3 {
+    font-family: var(--font-display);
+    color: var(--burgundy);
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.wordcloud-image-small {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid var(--sage-green);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.shared-words-section {
+    margin: 40px 0;
+}
+
+.shared-words-section h3 {
+    font-family: var(--font-display);
+    color: var(--burgundy);
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.shared-words-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+/* Footer */
+.botanical-footer {
+    text-align: center;
+    padding: 30px 20px;
+    background: linear-gradient(to top, var(--parchment), var(--cream));
+    border: 3px double var(--sage-green);
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.footer-text {
+    font-family: var(--font-display);
+    color: var(--moss);
+    margin: 10px 0;
+}
+
+.footer-credits {
+    font-style: italic;
+    color: var(--sage-green);
+    font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2em;
+    }
+
+    .nav-btn {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+
+    .text-card {
+        padding: 20px;
+    }
+
+    .analysis-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .wordclouds-side-by-side {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* D3.js Visualization Styles */
+.venn-circle {
+    opacity: 0.7;
+    stroke: var(--deep-forest);
+    stroke-width: 2;
+}
+
+.venn-label {
+    font-family: var(--font-display);
+    font-size: 16px;
+    fill: var(--deep-forest);
+    font-weight: 600;
+}
+
+.venn-count {
+    font-family: var(--font-body);
+    font-size: 24px;
+    fill: var(--burgundy);
+    font-weight: 700;
+}
